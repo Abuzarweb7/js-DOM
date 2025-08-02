@@ -62,8 +62,71 @@
 //Q11
 // let para =document.querySelector("#para");
 //  para.style.fontSize = "24px";
-let fullName =document.querySelector("#inputFullname");
-let greeting =document.querySelector("#greeting");
-function resultName(){
-    greeting.innerHTML =  "Hello" + fullName.value;
+
+//Q12
+// let fullName =document.querySelector("#inputFullname");
+// let greeting =document.querySelector("#greeting");
+// function resultName(){
+//     greeting.innerHTML =  "Hello" + fullName.value;
+// }
+
+
+
+
+// Q13
+
+
+// let divImage =document.querySelector("#profilePic");
+// function changeImage(){
+//     divImage . src = "https://images.seeklogo.com/logo-png/29/2/css-3-logo-png_seeklogo-297888.png";
+// }
+
+
+// Q14
+
+
+// let para =document.querySelectorAll(".highlight");
+// para.style.color ="orange";
+
+
+
+
+
+// Q17
+
+// let dateTime =document.querySelector("#dateTime");
+// function btnClick(){
+//     dateTime.innerHTML = new Date();
+// }
+
+
+
+
+
+
+// Q18
+// let togglePara =document.querySelector("#togglePara");
+// togglePara.style.display= "none";
+
+//
+
+// Q19
+// let  userAge = document.querySelector("#age");
+// let ageChecker =document.querySelector("#ageChecker");;
+// function checkage(){
+//     if(userAge . value >= 18){
+//         ageChecker.innerHTML = "Eligible";
+//     }
+//     else{
+//         ageChecker.innerHTML = " Not Eligible"
+//     }
+// }
+
+// Q20
+let searchBox = document.querySelector("#searchBox");
+function search(){
+    searchBox.value = "";
 }
+
+
+
