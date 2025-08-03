@@ -85,8 +85,10 @@
 // Q14
 
 
-let para =document.querySelectorAll(".highlight");
-para.style.color ="orange";
+// let para =document.querySelectorAll(".highlight");
+// for(let i = 0; i < para.length;i++){
+// para[i].style.color = "orange";
+// }
 
 
 // Q15
