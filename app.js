@@ -85,8 +85,37 @@
 // Q14
 
 
-// let para =document.querySelectorAll(".highlight");
-// para.style.color ="orange";
+let para =document.querySelectorAll(".highlight");
+para.style.color ="orange";
+
+
+// Q15
+// let checkInput = document.querySelector("#checkInput");
+// let para = document.querySelector("#statusCheck");
+// function checkAgree(){
+// if(checkInput.checked){
+//     para.innerHTML = "Agreed"
+// }
+// else{
+//     para.innerHTML = "Not Agreed"
+// }
+// }
+
+
+// Q16
+
+// let showOption =document.querySelector("#showOption");
+// let showSelectval = document.querySelector("#selectedVal");
+// function showOptionValue(){
+
+// showSelectval.innerHTML = showOption.value  
+
+// }
+
+
+
+
+
 
 
 
@@ -123,10 +152,10 @@
 // }
 
 // Q20
-let searchBox = document.querySelector("#searchBox");
-function search(){
-    searchBox.value = "";
-}
+// let searchBox = document.querySelector("#searchBox");
+// function search(){
+//     searchBox.value = "";
+// }
 
 
 
